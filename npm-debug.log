@@ -1,0 +1,211 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.6
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/zoe/galvanize/js-conditional-and-loop-fundamentals/package.json
+6 warn package.json loop-challenges@1.0.0 No repository field.
+7 verbose install where, deps [ '/Users/zoe/galvanize/js-conditional-and-loop-fundamentals',
+7 verbose install   [ 'request', 'jasmine-galvanize-poster' ] ]
+8 verbose install where, peers [ '/Users/zoe/galvanize/js-conditional-and-loop-fundamentals',
+8 verbose install   [] ]
+9 verbose installManyTop reading for lifecycle /Users/zoe/galvanize/js-conditional-and-loop-fundamentals/package.json
+10 info preinstall loop-challenges@1.0.0
+11 verbose readDependencies loading dependencies from /Users/zoe/galvanize/js-conditional-and-loop-fundamentals/package.json
+12 silly cache add args [ 'request@*', null ]
+13 verbose cache add spec request@*
+14 silly cache add args [ 'jasmine-galvanize-poster@git+https://github.com/gSchool/jasmine-galvanize-poster.git',
+14 silly cache add   null ]
+15 verbose cache add spec jasmine-galvanize-poster@git+https://github.com/gSchool/jasmine-galvanize-poster.git
+16 silly cache add parsed spec { raw: 'request@*',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'request',
+16 silly cache add   rawSpec: '*',
+16 silly cache add   spec: '*',
+16 silly cache add   type: 'range' }
+17 silly addNamed request@*
+18 verbose addNamed "*" is a valid semver range for request
+19 silly addNameRange { name: 'request', range: '*', hasData: false }
+20 silly mapToRegistry name request
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/request
+24 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+25 silly cache add parsed spec { raw: 'jasmine-galvanize-poster@git+https://github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'jasmine-galvanize-poster',
+25 silly cache add   rawSpec: 'git+https://github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add   spec: 'git+https://github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add   type: 'hosted',
+25 silly cache add   hosted:
+25 silly cache add    { type: 'github',
+25 silly cache add      ssh: 'git@github.com:gSchool/jasmine-galvanize-poster.git',
+25 silly cache add      sshUrl: 'git+ssh://git@github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add      httpsUrl: 'git+https://github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add      gitUrl: 'git://github.com/gSchool/jasmine-galvanize-poster.git',
+25 silly cache add      shortcut: 'github:gSchool/jasmine-galvanize-poster',
+25 silly cache add      directUrl: 'https://raw.githubusercontent.com/gSchool/jasmine-galvanize-poster/master/package.json' } }
+26 verbose addRemoteGit caching git+https://github.com/gSchool/jasmine-galvanize-poster.git
+27 verbose addRemoteGit git+https://github.com/gSchool/jasmine-galvanize-poster.git is a repository hosted by github
+28 silly tryClone cloning git+https://github.com/gSchool/jasmine-galvanize-poster.git via git+https://github.com/gSchool/jasmine-galvanize-poster.git
+29 verbose tryClone https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42 not in flight; caching
+30 verbose makeDirectory /Users/zoe/.npm/_git-remotes creation not in flight; initializing
+31 silly makeDirectory /Users/zoe/.npm/_git-remotes uid: 501 gid: 20
+32 verbose request uri https://registry.npmjs.org/request
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 14:08:01
+35 verbose request id 0a3927d460297b9a
+36 verbose etag "9YKWWJ405H7DXF8ONIVEZECFJ"
+37 http request GET https://registry.npmjs.org/request
+38 info git [ 'clone',
+38 info git   '--template=/Users/zoe/.npm/_git-remotes/_templates',
+38 info git   '--mirror',
+38 info git   'https://github.com/gSchool/jasmine-galvanize-poster.git',
+38 info git   '/Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42' ]
+39 http 200 https://registry.npmjs.org/request
+40 silly get cb [ 200,
+40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     etag: '"2GGA6ZW77K1PMTYX9W4LZLPX6"',
+40 silly get     'content-type': 'application/json',
+40 silly get     'cache-control': 'max-age=60',
+40 silly get     'content-length': '160878',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Mon, 03 Aug 2015 20:08:02 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '29',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-dfw1835-DFW',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1438632482.441497,VS0,VE0',
+40 silly get     vary: 'Accept' } ]
+41 verbose get saving request to /Users/zoe/.npm/registry.npmjs.org/request/.cache.json
+42 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+43 silly addNameRange versions [ 'request',
+43 silly addNameRange   [ '0.10.0',
+43 silly addNameRange     '0.8.3',
+43 silly addNameRange     '0.9.0',
+43 silly addNameRange     '0.9.1',
+43 silly addNameRange     '0.9.5',
+43 silly addNameRange     '1.0.0',
+43 silly addNameRange     '1.1.0',
+43 silly addNameRange     '1.1.1',
+43 silly addNameRange     '1.2.0',
+43 silly addNameRange     '1.9.0',
+43 silly addNameRange     '1.9.1',
+43 silly addNameRange     '1.9.2',
+43 silly addNameRange     '1.9.3',
+43 silly addNameRange     '1.9.5',
+43 silly addNameRange     '1.9.7',
+43 silly addNameRange     '1.9.8',
+43 silly addNameRange     '1.9.9',
+43 silly addNameRange     '2.0.0',
+43 silly addNameRange     '2.0.1',
+43 silly addNameRange     '2.0.2',
+43 silly addNameRange     '2.0.3',
+43 silly addNameRange     '2.0.4',
+43 silly addNameRange     '2.0.5',
+43 silly addNameRange     '2.1.0',
+43 silly addNameRange     '2.1.1',
+43 silly addNameRange     '2.2.0',
+43 silly addNameRange     '2.2.5',
+43 silly addNameRange     '2.2.6',
+43 silly addNameRange     '2.2.9',
+43 silly addNameRange     '2.9.0',
+43 silly addNameRange     '2.9.1',
+43 silly addNameRange     '2.9.2',
+43 silly addNameRange     '2.9.3',
+43 silly addNameRange     '2.9.100',
+43 silly addNameRange     '2.9.150',
+43 silly addNameRange     '2.9.151',
+43 silly addNameRange     '2.9.152',
+43 silly addNameRange     '2.9.153',
+43 silly addNameRange     '2.9.200',
+43 silly addNameRange     '2.9.201',
+43 silly addNameRange     '2.9.202',
+43 silly addNameRange     '2.9.203',
+43 silly addNameRange     '2.10.0',
+43 silly addNameRange     '2.11.0',
+43 silly addNameRange     '2.11.1',
+43 silly addNameRange     '2.11.2',
+43 silly addNameRange     '2.11.3',
+43 silly addNameRange     '2.11.4',
+43 silly addNameRange     '2.12.0',
+43 silly addNameRange     '2.14.0',
+43 silly addNameRange     '2.16.0',
+43 silly addNameRange     '2.16.2',
+43 silly addNameRange     '2.16.4',
+43 silly addNameRange     '2.16.6',
+43 silly addNameRange     '2.18.0',
+43 silly addNameRange     '2.19.0',
+43 silly addNameRange     '2.20.0',
+43 silly addNameRange     '2.21.0',
+43 silly addNameRange     '2.22.0',
+43 silly addNameRange     '2.23.0',
+43 silly addNameRange     '2.24.0',
+43 silly addNameRange     '2.25.0',
+43 silly addNameRange     '2.26.0',
+43 silly addNameRange     '2.27.0',
+43 silly addNameRange     '2.28.0',
+43 silly addNameRange     '2.29.0',
+43 silly addNameRange     '2.30.0',
+43 silly addNameRange     '2.31.0',
+43 silly addNameRange     '2.32.0',
+43 silly addNameRange     '2.33.0',
+43 silly addNameRange     '2.34.0',
+43 silly addNameRange     '2.35.0',
+43 silly addNameRange     '2.36.0',
+43 silly addNameRange     '2.37.0',
+43 silly addNameRange     '2.38.0',
+43 silly addNameRange     '2.39.0',
+43 silly addNameRange     '2.40.0',
+43 silly addNameRange     '2.41.0',
+43 silly addNameRange     '2.42.0',
+43 silly addNameRange     '2.43.0',
+43 silly addNameRange     '2.44.0',
+43 silly addNameRange     '2.45.0',
+43 silly addNameRange     '2.46.0',
+43 silly addNameRange     '2.47.0',
+43 silly addNameRange     '2.48.0',
+43 silly addNameRange     '2.49.0',
+43 silly addNameRange     '2.50.0',
+43 silly addNameRange     '2.51.0',
+43 silly addNameRange     '2.52.0',
+43 silly addNameRange     '2.53.0',
+43 silly addNameRange     '2.54.0',
+43 silly addNameRange     '2.55.0',
+43 silly addNameRange     '2.56.0',
+43 silly addNameRange     '2.57.0',
+43 silly addNameRange     '2.58.0',
+43 silly addNameRange     '2.59.0',
+43 silly addNameRange     '2.60.0' ] ]
+44 silly addNamed request@2.60.0
+45 verbose addNamed "2.60.0" is a plain semver version for request
+46 silly cache afterAdd request@2.60.0
+47 verbose afterAdd /Users/zoe/.npm/request/2.60.0/package/package.json not in flight; writing
+48 verbose afterAdd /Users/zoe/.npm/request/2.60.0/package/package.json written
+49 error git clone --template=/Users/zoe/.npm/_git-remotes/_templates --mirror https://github.com/gSchool/jasmine-galvanize-poster.git /Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42: Cloning into bare repository '/Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42'...
+49 error git clone --template=/Users/zoe/.npm/_git-remotes/_templates --mirror https://github.com/gSchool/jasmine-galvanize-poster.git /Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42: remote: Invalid username or password.
+49 error git clone --template=/Users/zoe/.npm/_git-remotes/_templates --mirror https://github.com/gSchool/jasmine-galvanize-poster.git /Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42: fatal: Authentication failed for 'https://github.com/gSchool/jasmine-galvanize-poster.git/'
+50 verbose stack Error: Command failed: git clone --template=/Users/zoe/.npm/_git-remotes/_templates --mirror https://github.com/gSchool/jasmine-galvanize-poster.git /Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42
+50 verbose stack Cloning into bare repository '/Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42'...
+50 verbose stack remote: Invalid username or password.
+50 verbose stack fatal: Authentication failed for 'https://github.com/gSchool/jasmine-galvanize-poster.git/'
+50 verbose stack
+50 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+50 verbose stack     at ChildProcess.emit (events.js:110:17)
+50 verbose stack     at maybeClose (child_process.js:1015:16)
+50 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+51 verbose cwd /Users/zoe/galvanize/js-conditional-and-loop-fundamentals
+52 error Darwin 14.3.0
+53 error argv "node" "/usr/local/bin/npm" "install"
+54 error node v0.12.6
+55 error npm  v2.12.1
+56 error code 128
+57 error Command failed: git clone --template=/Users/zoe/.npm/_git-remotes/_templates --mirror https://github.com/gSchool/jasmine-galvanize-poster.git /Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42
+57 error Cloning into bare repository '/Users/zoe/.npm/_git-remotes/https-github-com-gSchool-jasmine-galvanize-poster-git-25a3bc42'...
+57 error remote: Invalid username or password.
+57 error fatal: Authentication failed for 'https://github.com/gSchool/jasmine-galvanize-poster.git/'
+58 error If you need help, you may report this error at:
+58 error     <https://github.com/npm/npm/issues>
+59 verbose exit [ 1, true ]
